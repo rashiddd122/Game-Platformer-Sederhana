@@ -13,4 +13,5 @@ Buka link di atas, lalu cari bagian **Assets** dan unduh file installer `.exe`.
 - Update game tersedia melalui GitHub Releases.
 - Installer Windows.
 -fitur auto-update.
+
 ---
