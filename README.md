@@ -1,4 +1,4 @@
-# 🎮 Game Platformer Sederhana
+# 🎮 Game SanboxHUB sederhana
 
 Game platformer sederhana untuk menemani waktu luang! 🚀
 
@@ -9,8 +9,8 @@ Game platformer sederhana untuk menemani waktu luang! 🚀
 Buka link di atas, lalu cari bagian **Assets** dan unduh file installer `.exe`.
 
 ### ✨ Fitur
-- Gameplay platformer sederhana.
+- Gameplay sederhana.
 - Update game tersedia melalui GitHub Releases.
 - Installer Windows.
-
+-fitur auto-update.
 ---
