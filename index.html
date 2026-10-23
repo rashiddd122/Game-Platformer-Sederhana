@@ -1,130 +1,107 @@
-```html
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game Platformer Sederhana</title>
-  <meta name="description" content="Download Game Platformer Sederhana untuk Windows.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131c">
+  <title>SandboxHUB — Game Resmi</title>
+  <meta name="description" content="Unduh SandboxHUB untuk Windows dari GitHub Releases.">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #10172a, #172554);
-      color: white;
-      text-align: center;
-      min-height: 100vh;
+      color: #f5f7ff;
+      background: #10131c;
     }
-
     header {
-      padding: 24px 16px;
-      background: rgba(0, 0, 0, 0.25);
-    }
-
-    header h1 {
-      margin: 0;
-      color: #60a5fa;
-      font-size: 28px;
-    }
-
-    main {
-      max-width: 760px;
-      margin: auto;
-      padding: 55px 20px;
-    }
-
-    .game-icon {
-      font-size: 76px;
-      margin-bottom: 12px;
-    }
-
-    h2 {
-      font-size: 34px;
-      margin: 10px 0;
-    }
-
-    .description {
-      color: #cbd5e1;
-      line-height: 1.7;
-      font-size: 16px;
-    }
-
-    .download-button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 28px;
-      border-radius: 12px;
-      background: #22c55e;
-      color: #052e16;
-      text-decoration: none;
-      font-size: 18px;
+      padding: 22px 8%;
+      border-bottom: 1px solid #292e3e;
       font-weight: bold;
-      transition: 0.2s;
+      letter-spacing: 1px;
     }
-
-    .download-button:hover {
-      background: #4ade80;
-      transform: translateY(-3px);
+    main {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 55px 20px;
+      text-align: center;
     }
-
-    .info {
-      margin-top: 35px;
-      padding: 20px;
-      border: 1px solid #334155;
-      border-radius: 14px;
-      background: rgba(255, 255, 255, 0.05);
-      text-align: left;
-      line-height: 1.8;
+    .hero { max-width: 680px; }
+    .tag {
+      display: inline-block;
+      padding: 8px 13px;
+      border: 1px solid #444b62;
+      border-radius: 30px;
+      color: #b9c5ff;
+      font-size: 13px;
     }
-
+    h1 {
+      margin: 24px 0 12px;
+      font-size: clamp(38px, 8vw, 66px);
+    }
+    p {
+      color: #b6bdce;
+      line-height: 1.7;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .primary { background: #6378ff; color: white; }
+    .secondary { border: 1px solid #444b62; color: white; }
+    .note { margin-top: 20px; font-size: 13px; }
     footer {
-      padding: 25px;
-      color: #94a3b8;
+      padding: 22px;
+      border-top: 1px solid #292e3e;
+      text-align: center;
+      color: #8992a8;
       font-size: 13px;
     }
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>🎮 Game Platformer Sederhana</h1>
-  </header>
+  <header>SandboxHUB</header>
 
   <main>
-    <div class="game-icon">🕹️</div>
+    <section class="hero">
+      <span class="tag">GAME RESMI</span>
+      <h1>Selamat datang di SandboxHUB</h1>
+      <p>
+        Jelajahi, bermain, dan bersenang-senang.
+        Dapatkan versi Windows SandboxHUB melalui halaman
+        rilis resmi GitHub.
+      </p>
 
-    <h2>Petualangan Dimulai!</h2>
+      <div class="buttons">
+        <a class="btn primary"
+           href="https://github.com/rashiddd122/Game-Platformer-Sederhana/releases/latest">
+          Download untuk Windows
+        </a>
+        <a class="btn secondary"
+           href="https://github.com/rashiddd122/Game-Platformer-Sederhana">
+          Lihat di GitHub
+        </a>
+      </div>
 
-    <p class="description">
-      Mainkan Game Platformer Sederhana di PC Windows kamu.
-      Lompat, jelajahi level, dan nikmati petualangannya!
-    </p>
-
-    <!-- Ganti URL di bawah dengan link installer dari GitHub Releases -->
-    <a
-      class="download-button"
-      href="https://github.com/rashiddd122/Game-Platformer-Sederhana-beta/releases/latest"
-      target="_blank"
-      rel="noopener noreferrer">
-      ⬇ Download untuk Windows
-    </a>
-
-    <section class="info">
-      <h3>📋 Informasi Game</h3>
-      <p>🖥️ Platform: Windows</p>
-      <p>🎮 Jenis: Platformer</p>
-      <p>📦 Format: Installer (.exe)</p>
-      <p>💰 Harga: Gratis</p>
+      <p class="note">
+        Pilih installer Windows pada bagian Assets di halaman Releases.
+      </p>
     </section>
   </main>
 
-  <footer>
-    © 2026 Game Platformer Sederhana. Dibuat dengan ❤️
-  </footer>
+  <footer>© SandboxHUB — halaman game buatan pengembang.</footer>
 </body>
 </html>
-```
