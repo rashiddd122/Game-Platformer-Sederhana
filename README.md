@@ -8,6 +8,10 @@ Game platformer sederhana untuk menemani waktu luang! 🚀
 
 **[🌐TELUSURI WEBSITE ASLI SandboxHUB](https://rashiddd122.github.io/SandboxHUB-game-FREE/)**
 
+**[🙏🙏🙏SUBSCRIBE CHANNELKU AGAR GAME CEPAT UPDATE](https://www.youtube.com/channel/UCsAom-hw_jt_mvPsloT_Qrg)**
+
+di 500 subs aku akan update game
+
 Buka link di atas, lalu cari bagian **Assets** dan unduh file installer `.exe`.
 
 ### ✨ Fitur
