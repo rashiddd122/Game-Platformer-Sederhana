@@ -6,7 +6,7 @@ Game platformer sederhana untuk menemani waktu luang! 🚀
 
 **[📥 DOWNLOAD GAME VERSI TERBARU](https://github.com/rashiddd122/Game-Platformer-Sederhana/releases/latest)**
 
-**[TELUSURI WEBSITE ASLI SandboxHUB](https://rashiddd122.github.io/SandboxHUB-game-FREE/)**
+**[🌐TELUSURI WEBSITE ASLI SandboxHUB](https://rashiddd122.github.io/SandboxHUB-game-FREE/)**
 
 Buka link di atas, lalu cari bagian **Assets** dan unduh file installer `.exe`.
 
